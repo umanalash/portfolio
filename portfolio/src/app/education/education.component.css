@@ -1,6 +1,7 @@
 :host {
     display: block;
     color:white;
+    padding: 3rem 2rem;
 }
 section {
     margin-top: 2rem;

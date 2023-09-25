@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostBinding, OnInit } from '@angular/core';
 import { BreakpointObserver, Breakpoints} from '@angular/cdk/layout'
 @Component({
   selector: 'app-baner',
@@ -8,11 +8,10 @@ import { BreakpointObserver, Breakpoints} from '@angular/cdk/layout'
 export class BanerComponent implements OnInit{
   constructor(private breakpointObserver:BreakpointObserver) { }
   ngOnInit(): void {
-    this.breakpointObserver
-      .observe([Breakpoints.Tablet,Breakpoints.WebLandscape])
+    this.breakpointObserver.observe([Breakpoints.HandsetPortrait,Breakpoints.WebLandscape])
       .subscribe({next: (result:any) =>  {
         console.log(result);
       },
     });
   }
-}
+  }

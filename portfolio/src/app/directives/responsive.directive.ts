@@ -8,7 +8,7 @@ export class ResponsiveDirective {
 
   constructor(private element:ElementRef,
     private breakpointObserver: BreakpointObserver) {
-      this.breakpointObserver.observe([Breakpoints.HandsetPortrait,Breakpoints.WebLandscape])
+      this.breakpointObserver.observe([Breakpoints.TabletLandscape,Breakpoints.WebLandscape])
       .subscribe({next: (result:any) =>  {
         console.log(result);
         for(let breakpoint of Object.keys(result.breakpoints)) {
