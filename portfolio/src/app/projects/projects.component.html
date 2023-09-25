@@ -1,0 +1,17 @@
+<div class="container">
+  
+    <h1>Projects</h1>
+    <div class="portfolio">
+    <section *ngFor="let project of projects">
+      <h2>{{ project.title }}</h2>
+        <div class="portfolio-item">
+          
+            <a [href]="project.webpageUrl" target="_blank">
+              <img [src]="'assets/port/' + project.image" alt="">
+            </a>
+         
+        </div>
+    </section>
+  </div>
+</div>
+  
