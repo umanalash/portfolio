@@ -27,21 +27,10 @@ projects:(Project)[]=[
     image:'currency.png',
   },
   {
-    title:'Select',
-    webpageUrl:'https://umanalash.github.io/select/',
-    image:'select.png',
-  },
-  {
     title:'XYCoordinates',
     webpageUrl:'https://umanalash.github.io/coordinates/parent',
     image:'coordinate.png',
-  },
-  {
-    title:'NgModel',
-    webpageUrl:'https://umanalash.github.io/project/',
-    image:'slider.png',
-  },
-  
+  }, 
   {
     title:'Flickr',
     webpageUrl:'https://incubationwork.github.io/umanalash-s/flickr/layouts.html',
@@ -76,17 +65,6 @@ projects:(Project)[]=[
     title:'Assignments',
     webpageUrl:'https://incubationwork.github.io/umanalash-s/javascript/javascript.html',
     image:'jsassign.png',
-  },
- 
-  {
-    title:'LayoutsGrid',
-    webpageUrl:'https://incubationwork.github.io/umanalash-s/gridlayouts.html',
-    image:'layoutflex.png',
-  },
-  {
-    title:'LayoutsFlex',
-    webpageUrl:'https://incubationwork.github.io/umanalash-s/flexlayouts.html',
-    image:'layoutgrid.png',
   },
 ]
 }
