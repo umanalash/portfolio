@@ -32,11 +32,6 @@ projects:(Project)[]=[
     image:'coordinate.png',
   }, 
   {
-    title:'Flickr',
-    webpageUrl:'https://incubationwork.github.io/umanalash-s/flickr/layouts.html',
-    image:'flickr.png',
-  },
-  {
     title:'Countdown',
     webpageUrl:'https://incubationwork.github.io/umanalash-s/demo/demo1.html',
     image:'countdown.png',
@@ -65,6 +60,11 @@ projects:(Project)[]=[
     title:'Assignments',
     webpageUrl:'https://incubationwork.github.io/umanalash-s/javascript/javascript.html',
     image:'jsassign.png',
+  },
+  {
+    title:'Flickr',
+    webpageUrl:'https://incubationwork.github.io/umanalash-s/flickr/layouts.html',
+    image:'flickr.png',
   },
 ]
 }
